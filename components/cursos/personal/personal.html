@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/app/view/img/prolog/LOGO PROLOG DORADO.png" type="image/png">
+    <title>MATERIAL - PERSONAL SOCIAL</title>
+    <!-- Agregamos enlaces a los archivos de Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/app/view/css/stylegrados/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="/app/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/app/view/js/script.js"></script>
+</head>
+<body class="font-poppins-light">
+    <!-- Pantalla de carga -->
+    <div class="loader-overlay">
+      <img class="loader-logo" src="/app/view/img/prolog/LOGO PROLOG DORADO.png" alt="Logo de Carga">
+    </div>
+    <!-- Barra de navegación -->
+    <main class="main"></main>
+    <nav class="navbar-expand-lg bgnav navbar navbar-dark navprincipal fixed-top font-poppins-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/app/view/inicio.html">
+          <img src="/app/view/img/prolog/logo_web.png" alt="Imagen Offcanvas" class="img-fluid" width="200">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header bgnav">
+            <h5 class="" id="offcanvasDarkNavbarLabel">MENÚ</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bgnav">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link offcanvas-title" href="/app/view/inicio.html">
+                  <i class="fas fa-home"></i> Home
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-graduation-cap"></i> Grados
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/app/view/components/grados/3años/cursos.html">3 años</a></li>
+                  <li><a class="dropdown-item" href="/app/view/components/grados/4años/cursos.html">4 años</a></li>
+                  <li><a class="dropdown-item" href="/app/view/components/grados/5años/cursos.html">5 años</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="http://wa.me/51014800505 ">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>    
+      </div>
+    </nav>
+    <!--Contenido Principal-->
+    <div class="container main">
+      <div class="main2"></div>
+      <div class="main2"></div>
+          <h2 class="font-poppins-light titulobase">CURSO: PERSONAL SOCIAL</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/app/view/img/assets/personal/personal3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">PERSONAL SOCIAL - 3 AÑOS</h6>
+                  <a href="/app/view/components/grados/3años/personal/personal.html" class="btn btn-primary" >IR AL CURSO</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/app/view/img/assets/personal/personal3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">PERSONAL SOCIAL - 4 AÑOS</h6>
+                  <a href="/app/view/components/grados/4años/personal/personal.html" class="btn btn-primary">IR AL CURSO</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/app/view/img/assets/personal/personal3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">PERSONAL SOCIAL - 5 AÑOS</h6>
+                  <a href="/app/view/components/grados/5años/personal/personal.html" class="btn btn-primary">IR AL CURSO</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    <main class="main"></main>
+</body>
+</html>

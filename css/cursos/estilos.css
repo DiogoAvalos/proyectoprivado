@@ -1,0 +1,206 @@
+/* Fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins Light', sans-serif;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #001e5d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Barra azul */
+.bg-blue {
+    background-color: #001e5d;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de navegación */
+.bgnav {
+    background-color: #001e5d;
+}
+
+.navprincipal {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.menu {
+    color: white;
+}
+
+.dropdown-menu-blue {
+    background-color: #001e5d;
+}
+
+/* Estilos principales de la página */
+.main {
+    padding-top: 30px;
+}
+
+.main2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main3 {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.main4 {
+    padding-top: 200px;
+}
+
+.main5 {
+    padding-top: 80px;
+}
+
+.space {
+    padding-top: 20px;
+}
+
+/* Estilos de titulares */
+.titulobase {
+    font-size: 35px;
+}
+
+/* Fuente personalizada Roboto */
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.roboto-font3 {
+    font-family: 'Poppins light';
+    font-size: 15px;
+}
+
+/* Animación de loader */
+@keyframes fadeInOut {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader-logo {
+    animation: fadeInOut 2s infinite;
+    width: 150px;
+    height: 150px;
+}
+
+.font-poppins-light {
+    font-family: 'Poppins';
+}
+
+/* Estilos del contenedor principal */
+.container {
+    margin: 20px auto;
+    padding: 0;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Imagen del contenedor */
+.container img.pic {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #001e5d;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Texto tenue */
+.textmuted-custom {
+    font-size: 15px;
+    color: #001e5d;
+}
+
+/* Texto y encabezados azules */
+.h-blue {
+    color: #b2965f;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.p-blue {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container .row .box button {
+    margin-left: 3px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.px-9 {
+    padding: 0 30px;
+}
+
+.fas.fa-arrow-right {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Botón de ocultar */
+.hide .btn.btn-primary {
+    background-color: transparent;
+    border: none;
+    padding: 5px 0;
+}
+
+.hide .btn.btn-primary:focus {
+    box-shadow: none;
+    outline: none;
+    color: #5eadee;
+}
+
+/* Acordeones */
+.accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.link-secondary, .fab, .fas {
+    color: white !important;
+}
+
+.txt {
+    color: #b2965f;
+    font-weight: bold;
+}
+
+.accordion {
+    border-radius: 30px; /* Ajusta el valor según tu preferencia */
+    overflow: hidden; /* Asegúrate de que los bordes redondos se apliquen correctamente */
+    border: 1px solid #001e5d; /* Cambia #007bff al color que desees */
+}
